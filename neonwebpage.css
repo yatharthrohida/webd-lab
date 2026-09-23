@@ -85,6 +85,10 @@ section p {
     font-size: 16px;
     margin-bottom: 15px;
 }
+footer{
+    align-items: center;
+    text-align: center;
+}
 footer p {
     transition: color 1s;
 }
@@ -100,4 +104,100 @@ footer nav:hover {
 
 #jointheclub {
     color: #00ffa2;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    transition-property: color;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+nav a:hover {
+    color: #00eaff;
+}
+
+
+.club-logo {
+    width: 180px;
+    margin: 20px auto;
+    transition-property: transform;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+}
+
+.club-logo:hover {
+    transform: scale(1.05);
+}
+
+
+section h2 {
+    font-size: 35px;
+    color: #00eaff;
+    margin-bottom: 20px;
+    text-align: center;
+
+    transition-property: color;
+    transition-duration: 0.4s;
+    transition-timing-function: linear;
+    transition-delay: 0s;
+}
+
+section h2:hover {
+    color: #ff4fd8;
+}
+
+
+section a {
+    color: #00eaff;
+    transition-property: color;
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
+    transition-delay: 0s;
+}
+
+section a:hover {
+    color: #ff4fd8;
+}
+
+
+#jointheclub a {
+    color: #00ffa2;
+    transition-property: color;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in;
+    transition-delay: 0s;
+}
+
+#jointheclub a:hover {
+    color: #00eaff;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    transition-property: color;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+}
+
+footer a:hover {
+    color: #ff4fd8;
+}
+i {
+    color: #00eaff;
+    margin-right: 5px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover i {
+    color: #ff4fd8;
+}
+
+.club-logo:hover {
+    transform: scale(1.05);
 }
