@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #080812;
+    color: white;
+    line-height: 1.6;
+}
+
+header {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+header h1 {
+    font-size: 60px;
+    color: #00eaff;
+}
+
+header p {
+    font-size: 20px;
+    color: #bdefff;
+    margin-top: 10px;
+}
+nav {
+    margin-top: 30px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #00eaff;
+}
+
+.club-logo {
+    width: 180px;
+    margin: 20px auto;
+}
+
+
+main {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+}
+
+section {
+    padding: 60px 20px;
+    border-bottom: 1px solid #333;
+}
+
+section h2 {
+    font-size: 35px;
+    color: #00eaff;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+section h3 {
+    color: #ff4fd8;
+    font-size: 22px;
+    margin: 20px 0 10px;
+}
+
+section p {
+    color: #c9c9d5;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+footer p {
+    transition: color 1s;
+}
+
+footer p:hover {
+    transition: color 1s;
+    color: #00eaff;
+}
+
+footer nav:hover {
+    color: #ff4fd8;
+}
+
+#jointheclub {
+    color: #00ffa2;
+}
